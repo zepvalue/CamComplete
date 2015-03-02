@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <ImageView
+        android:layout_marginLeft="40dp"
+        android:id="@+id/lpreview"
+        android:layout_width="232dp"
+        android:layout_height="280dp" >
+
+    </ImageView>
+
+    <Button
+        android:id="@+id/bLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Camera" />
+    
+     <EditText 
+        android:id="@+id/etNome"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"/>
+     
+      <EditText 
+        android:id="@+id/etDesc"  
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrizione"/>
+      
+      <TextView
+        android:id="@+id/res"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+          />
+      
+      <Button
+        android:id="@+id/bSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Invia" />
+
+</LinearLayout>
